@@ -1,0 +1,17 @@
+picture {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  picture {
+  padding-right: 118px;
+  max-width: 540px;
+  height: auto;
+  }
+}
+

@@ -1,0 +1,22 @@
+button {
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  width: 216px;
+  height: 68px;
+  background: #333333;
+  border: none;
+  color: #fff;
+  margin-top: 48px;
+}
+
+@media only screen and (min-width: 768px) {
+  button {
+    margin-bottom: 64px;
+  }
+}

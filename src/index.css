@@ -1,13 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@600&family=Space+Mono:wght@400;700&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  /* max-width: 1440px; */
+  font-family: "Space Mono", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h2 {
+  font-family: Inconsolata;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 71px;
+  letter-spacing: -0.035em;
+  margin-top: 60px;
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+}
+
+@media only screen and (min-width: 768px) {
+  /* body {
+    max-width: 1440px;
+    max-height: 1080px;
+  } */
+  h1 {
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    margin-top: 0;
+  }
+  p {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    width: 60%;
+  }
 }

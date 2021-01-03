@@ -1,0 +1,25 @@
+.container {
+  margin-left: 24px;
+}
+
+.hero {
+  margin-top: 64px;
+  margin-bottom: 96px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    margin-top: 40px;
+    margin-left: 77px;
+    margin-right: auto;
+  }
+  .hero {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 200px;
+    margin-bottom: 296px;
+  }
+}
+
